@@ -1,0 +1,4 @@
+h of your GitHub repository – e.g. https://github.com/awslabs/py-flask-signup-docker. In addition to the application source code, the repository contains the Dockerfile used to build the image, as explained at the beginning of this walkthrough. 
+Under Source Code Management provide the Repository URL for Git, e.g. https://github.com/awslabs/py-flask-signup-docker.
+In the Build Triggers section, select Build when a change is pushed to GitHub.
+In the Build section, add a Docker build and publish step to the job and configure it to publish to your Docker registry repository (e.g. DockerHub) and add a tag to identify
